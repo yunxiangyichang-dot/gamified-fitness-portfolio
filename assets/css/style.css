@@ -194,8 +194,8 @@ p {
 .page-title {
   margin: 24px 0 20px;
   font-size: clamp(44px, 7vw, 92px);
-  line-height: 0.94;
-  letter-spacing: -0.075em;
+  line-height: 1.04;
+  letter-spacing: -0.062em;
 }
 
 .gradient-text {
