@@ -45,6 +45,8 @@ const lightboxClose = document.querySelector('.lightbox button');
 function closeLightbox() {
   if (!lightbox || !lightboxImage) return;
   lightbox.classList.remove('open');
+  lightbox.classList.remove('rotate-cw');
+  lightbox.classList.remove('rotate-ccw');
   lightboxImage.removeAttribute('src');
 }
 
@@ -52,6 +54,14 @@ document.querySelectorAll('[data-lightbox]').forEach(function (image) {
   image.addEventListener('click', function () {
     if (!lightbox || !lightboxImage) return;
     lightboxImage.src = image.getAttribute('src');
+    lightbox.classList.remove('rotate-cw');
+    lightbox.classList.remove('rotate-ccw');
+    var rot = image.getAttribute('data-lightbox-rotate');
+    if (rot === 'cw') {
+      lightbox.classList.add('rotate-cw');
+    } else if (rot === 'ccw') {
+      lightbox.classList.add('rotate-ccw');
+    }
     lightbox.classList.add('open');
   });
 });
