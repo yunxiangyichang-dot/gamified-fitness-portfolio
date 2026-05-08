@@ -34,36 +34,157 @@
     <section class="section">
       <div class="container doc-content reveal">
         <h3 class="doc-heading">5.1 Usability Test Result</h3>
-        <p>User 1 Feedback:User 1 found the check-in process straightforward and easy to use, and the streak data was clear and intuitive. However, the visual design of the initial pages felt somewhat plain, and the progress feedback for tasks was not very noticeable. In addition, the entry point for the AI coach was not easy to locate.Suggestion: Improve the visual design with more engaging colors, make task progress more visually prominent, and place key features such as the AI coach on the homepage for easier access.</p>
-        <p>User 2 Feedback:User 2 mentioned that the overall workflow of the system was smooth, with no unnecessary steps. The leaderboard and check-in reward features were particularly appealing. However, there were a few missing elements in the bilingual text, and the interaction process within the social module felt slightly complicated.Suggestion: Review and complete the bilingual content, simplify the steps for social interactions, and reduce the number of page transitions.</p>
-        <p>User 3 FeedbackUser 3 appreciated the personalized fitness recommendations, finding them useful for guiding workouts. However, the gamification elements in the early stage were not very engaging, and completing tasks did not provide a strong sense of achievement. As a result, long-term motivation might be limited.Suggestion: Enhance feedback after task completion (e.g., pop-ups or rewards), introduce clearer achievement displays, and improve data visualization to strengthen the user’s sense of progress and accomplishment.</p>
-        <p>Common Findings from User Testing</p>
+        <div class="feedback-list">
+          <article class="feedback-card">
+            <header class="feedback-card-head">
+              <span class="feedback-card-num">1</span>
+              <h4 class="feedback-card-title">User 1</h4>
+            </header>
+            <div class="feedback-card-body">
+              <div class="feedback-section feedback-section-positive">
+                <h5 class="feedback-section-label">Feedback</h5>
+                <p>User 1 Feedback:User 1 found the check-in process straightforward and easy to use, and the streak data was clear and intuitive. However, the visual design of the initial pages felt somewhat plain, and the progress feedback for tasks was not very noticeable. In addition, the entry point for the AI coach was not easy to locate.</p>
+              </div>
+              <div class="feedback-section feedback-section-suggestion">
+                <h5 class="feedback-section-label">Suggestion</h5>
+                <p>Suggestion: Improve the visual design with more engaging colors, make task progress more visually prominent, and place key features such as the AI coach on the homepage for easier access.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="feedback-card">
+            <header class="feedback-card-head">
+              <span class="feedback-card-num">2</span>
+              <h4 class="feedback-card-title">User 2</h4>
+            </header>
+            <div class="feedback-card-body">
+              <div class="feedback-section feedback-section-positive">
+                <h5 class="feedback-section-label">Feedback</h5>
+                <p>User 2 Feedback:User 2 mentioned that the overall workflow of the system was smooth, with no unnecessary steps. The leaderboard and check-in reward features were particularly appealing. However, there were a few missing elements in the bilingual text, and the interaction process within the social module felt slightly complicated.</p>
+              </div>
+              <div class="feedback-section feedback-section-suggestion">
+                <h5 class="feedback-section-label">Suggestion</h5>
+                <p>Suggestion: Review and complete the bilingual content, simplify the steps for social interactions, and reduce the number of page transitions.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="feedback-card">
+            <header class="feedback-card-head">
+              <span class="feedback-card-num">3</span>
+              <h4 class="feedback-card-title">User 3</h4>
+            </header>
+            <div class="feedback-card-body">
+              <div class="feedback-section feedback-section-positive">
+                <h5 class="feedback-section-label">Feedback</h5>
+                <p>User 3 FeedbackUser 3 appreciated the personalized fitness recommendations, finding them useful for guiding workouts. However, the gamification elements in the early stage were not very engaging, and completing tasks did not provide a strong sense of achievement. As a result, long-term motivation might be limited.</p>
+              </div>
+              <div class="feedback-section feedback-section-suggestion">
+                <h5 class="feedback-section-label">Suggestion</h5>
+                <p>Suggestion: Enhance feedback after task completion (e.g., pop-ups or rewards), introduce clearer achievement displays, and improve data visualization to strengthen the user's sense of progress and accomplishment.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <h4 class="findings-heading">Common Findings from User Testing</h4>
         <p>By analyzing feedback from all three users, several common issues were identified:</p>
-        <p>The visual design of early pages lacks engagement and needs improvement.</p>
-        <p>Core features are not always easily discoverable, affecting usability.</p>
-        <p>Gamification elements are not strong enough to sustain long-term motivation.</p>
-        <p>Some interaction flows, especially in social modules, are overly complex.</p>
+        <ul class="findings-list">
+          <li>The visual design of early pages lacks engagement and needs improvement.</li>
+          <li>Core features are not always easily discoverable, affecting usability.</li>
+          <li>Gamification elements are not strong enough to sustain long-term motivation.</li>
+          <li>Some interaction flows, especially in social modules, are overly complex.</li>
+        </ul>
         <p>These findings provided clear directions for the next stage of system optimization.</p>
         <h3 class="doc-heading">5.2 Iterative Optimization</h3>
         <p>(Before &amp; After Comparison Screenshots)：</p>
-        <div class="doc-image-row">
-          <div class="doc-image"><img src="assets/images/image22.jpeg" alt="image22.jpeg" data-lightbox style="max-width: min(100%, 554px);"></div>
-        </div>
-        <div class="doc-image-row">
-          <div class="doc-image"><img src="assets/images/image23.jpeg" alt="image23.jpeg" data-lightbox style="max-width: min(100%, 554px);"></div>
-        </div>
-        <div class="doc-image-row">
-          <div class="doc-image"><img src="assets/images/image24.jpeg" alt="image24.jpeg" data-lightbox style="max-width: min(100%, 554px);"></div>
-        </div>
-        <div class="doc-image-row">
-          <div class="doc-image"><img src="assets/images/image25.png" alt="image25.png" data-lightbox style="max-width: min(100%, 554px);"></div>
-        </div>
-        <p>Iterative Optimization Explanation</p>
+        <h4 class="findings-heading">Iterative Optimization Explanation</h4>
         <p>Based on user testing feedback, several key improvements were implemented:</p>
-        <p><strong>Problem:</strong> AI coach entry was difficult to locate<br><strong>Change:</strong> Moved AI coach to the homepage<br><strong>Result:</strong> Improved feature visibility and accessibility</p>
-        <p><strong>Problem:</strong> Visual design was too plain<br><strong>Change:</strong> Enhanced color scheme and visual hierarchy<br><strong>Result:</strong> Increased user engagement and visual appeal</p>
-        <p><strong>Problem:</strong> Weak sense of achievement after task completion<br><strong>Change:</strong> Added pop-up feedback and reward indicators<br><strong>Result:</strong> Strengthened motivation and user satisfaction</p>
-        <p><strong>Problem:</strong> Social interaction steps were complex<br><strong>Change:</strong> Simplified interaction flow and reduced page transitions<br><strong>Result:</strong> Improved usability and efficiency</p>
+        <div class="iteration-list">
+          <article class="iteration-card">
+            <span class="iteration-card-num">01</span>
+            <figure class="iteration-screenshot">
+              <img src="assets/images/image22.jpeg" alt="image22.jpeg" data-lightbox>
+            </figure>
+            <div class="iteration-flow">
+              <div class="iteration-step iteration-step-problem">
+                <h5 class="iteration-step-label">Problem</h5>
+                <p>AI coach entry was difficult to locate</p>
+              </div>
+              <div class="iteration-step iteration-step-change">
+                <h5 class="iteration-step-label">Change</h5>
+                <p>Moved AI coach to the homepage</p>
+              </div>
+              <div class="iteration-step iteration-step-result">
+                <h5 class="iteration-step-label">Result</h5>
+                <p>Improved feature visibility and accessibility</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="iteration-card">
+            <span class="iteration-card-num">02</span>
+            <figure class="iteration-screenshot">
+              <img src="assets/images/image23.jpeg" alt="image23.jpeg" data-lightbox>
+            </figure>
+            <div class="iteration-flow">
+              <div class="iteration-step iteration-step-problem">
+                <h5 class="iteration-step-label">Problem</h5>
+                <p>Visual design was too plain</p>
+              </div>
+              <div class="iteration-step iteration-step-change">
+                <h5 class="iteration-step-label">Change</h5>
+                <p>Enhanced color scheme and visual hierarchy</p>
+              </div>
+              <div class="iteration-step iteration-step-result">
+                <h5 class="iteration-step-label">Result</h5>
+                <p>Increased user engagement and visual appeal</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="iteration-card">
+            <span class="iteration-card-num">03</span>
+            <figure class="iteration-screenshot">
+              <img src="assets/images/image24.jpeg" alt="image24.jpeg" data-lightbox>
+            </figure>
+            <div class="iteration-flow">
+              <div class="iteration-step iteration-step-problem">
+                <h5 class="iteration-step-label">Problem</h5>
+                <p>Weak sense of achievement after task completion</p>
+              </div>
+              <div class="iteration-step iteration-step-change">
+                <h5 class="iteration-step-label">Change</h5>
+                <p>Added pop-up feedback and reward indicators</p>
+              </div>
+              <div class="iteration-step iteration-step-result">
+                <h5 class="iteration-step-label">Result</h5>
+                <p>Strengthened motivation and user satisfaction</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="iteration-card">
+            <span class="iteration-card-num">04</span>
+            <figure class="iteration-screenshot">
+              <img src="assets/images/image25.png" alt="image25.png" data-lightbox>
+            </figure>
+            <div class="iteration-flow">
+              <div class="iteration-step iteration-step-problem">
+                <h5 class="iteration-step-label">Problem</h5>
+                <p>Social interaction steps were complex</p>
+              </div>
+              <div class="iteration-step iteration-step-change">
+                <h5 class="iteration-step-label">Change</h5>
+                <p>Simplified interaction flow and reduced page transitions</p>
+              </div>
+              <div class="iteration-step iteration-step-result">
+                <h5 class="iteration-step-label">Result</h5>
+                <p>Improved usability and efficiency</p>
+              </div>
+            </div>
+          </article>
+        </div>
         <h3 class="doc-heading">5.3 Final Reflection (Social Ethics &amp; AI Application Discussion)</h3>
         <p>In terms of social and ethical significance, this gamified campus fitness system actively responds to the goal of promoting a healthier campus environment and improving college students’ physical well-being. By combining lightweight interaction design with gamification elements, the system encourages users to build long-term exercise habits in a more engaging and sustainable way, helping to address the common issue of low physical activity among students.</p>
         <p>Throughout the design process, particular attention was paid to data privacy and ethical considerations. The system follows the principle of minimal data collection and informed consent. All user data is used solely for system functionality and academic purposes, and anonymization techniques are applied to reduce the risk of privacy leakage. These measures ensure that the design aligns with current digital product ethics and user data protection standards.</p>

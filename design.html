@@ -34,27 +34,99 @@
     <section class="section">
       <div class="container doc-content reveal">
         <h3 class="doc-heading">3.1 Crazy Eight: 8 UI Creative Quick Hand-drawn Sketches</h3>
-        <div class="doc-image-row crazy8-rotated">
-          <div class="doc-image"><img src="assets/images/image13.png" alt="image13.png" data-lightbox data-lightbox-rotate="ccw"></div>
-          <div class="doc-image"><img src="assets/images/image14.png" alt="image14.png" data-lightbox data-lightbox-rotate="ccw"></div>
-        </div>
-        <div class="doc-image-row crazy8-rotated">
-          <div class="doc-image"><img src="assets/images/image15.png" alt="image15.png" data-lightbox data-lightbox-rotate="ccw"></div>
-          <div class="doc-image"><img src="assets/images/image16.png" alt="image16.png" data-lightbox data-lightbox-rotate="ccw"></div>
-        </div>
-        <div class="doc-image-row crazy8-portrait">
-          <div class="doc-image"><img src="assets/images/image17.png" alt="image17.png" data-lightbox></div>
-          <div class="doc-image"><img src="assets/images/image18.png" alt="image18.png" data-lightbox></div>
-          <div class="doc-image"><img src="assets/images/image19.png" alt="image19.png" data-lightbox></div>
-          <div class="doc-image"><img src="assets/images/image20.png" alt="image20.png" data-lightbox></div>
+        <div class="crazy8-carousel" data-carousel tabindex="0" aria-label="Crazy Eight sketches carousel">
+          <div class="crazy8-stage">
+            <button class="crazy8-arrow crazy8-arrow-prev" type="button" aria-label="Previous sketch">‹</button>
+            <div class="crazy8-slides">
+              <div class="crazy8-slide is-rotated-ccw is-active" data-slide><img src="assets/images/image13.png" alt="image13.png" data-lightbox data-lightbox-rotate="ccw"></div>
+              <div class="crazy8-slide is-rotated-ccw" data-slide><img src="assets/images/image14.png" alt="image14.png" data-lightbox data-lightbox-rotate="ccw"></div>
+              <div class="crazy8-slide is-rotated-ccw" data-slide><img src="assets/images/image15.png" alt="image15.png" data-lightbox data-lightbox-rotate="ccw"></div>
+              <div class="crazy8-slide is-rotated-ccw" data-slide><img src="assets/images/image16.png" alt="image16.png" data-lightbox data-lightbox-rotate="ccw"></div>
+              <div class="crazy8-slide" data-slide><img src="assets/images/image17.png" alt="image17.png" data-lightbox></div>
+              <div class="crazy8-slide" data-slide><img src="assets/images/image18.png" alt="image18.png" data-lightbox></div>
+              <div class="crazy8-slide" data-slide><img src="assets/images/image19.png" alt="image19.png" data-lightbox></div>
+              <div class="crazy8-slide" data-slide><img src="assets/images/image20.png" alt="image20.png" data-lightbox></div>
+            </div>
+            <button class="crazy8-arrow crazy8-arrow-next" type="button" aria-label="Next sketch">›</button>
+            <div class="crazy8-counter"><span class="crazy8-counter-current">1</span> / 8</div>
+          </div>
+          <div class="crazy8-thumbs">
+            <button class="crazy8-thumb is-rotated-ccw is-active" type="button" data-target="0" aria-label="Sketch 1"><img src="assets/images/image13.png" alt=""></button>
+            <button class="crazy8-thumb is-rotated-ccw" type="button" data-target="1" aria-label="Sketch 2"><img src="assets/images/image14.png" alt=""></button>
+            <button class="crazy8-thumb is-rotated-ccw" type="button" data-target="2" aria-label="Sketch 3"><img src="assets/images/image15.png" alt=""></button>
+            <button class="crazy8-thumb is-rotated-ccw" type="button" data-target="3" aria-label="Sketch 4"><img src="assets/images/image16.png" alt=""></button>
+            <button class="crazy8-thumb" type="button" data-target="4" aria-label="Sketch 5"><img src="assets/images/image17.png" alt=""></button>
+            <button class="crazy8-thumb" type="button" data-target="5" aria-label="Sketch 6"><img src="assets/images/image18.png" alt=""></button>
+            <button class="crazy8-thumb" type="button" data-target="6" aria-label="Sketch 7"><img src="assets/images/image19.png" alt=""></button>
+            <button class="crazy8-thumb" type="button" data-target="7" aria-label="Sketch 8"><img src="assets/images/image20.png" alt=""></button>
+          </div>
         </div>
         <h3 class="doc-heading">3.2 Design Alternative Scheme Comparison (3 Schemes &amp; Final Selection Reason)</h3>
-        <p>Scheme 1: Pure Functional Management-oriented System Mode</p>
-        <p>Operation mode: Focus on student exercise data statistics, sports management and record functions, simple interface, no gamified design and social interaction modules, core functions are check-in recording and data query only. Advantages: Simple development, stable system operation, clear management functions, low maintenance cost. Disadvantages: No exercise fun, no user incentive mechanism, low active use willingness, unable to improve long-term exercise persistence, inconsistent with project gamified core positioning.</p>
-        <p>Scheme 2: Full Social Entertainment-oriented Fitness System Mode</p>
-        <p>Operation mode: Focus on student social interaction, fitness challenge PK and community sharing, add a large number of entertainment gameplay and interactive activities, weaken professional fitness guidance and data statistics functions. Advantages: High user playability, strong social interaction, high short-term user activity and attraction. Disadvantages: Deviate from the core demand of improving fitness habits, excessive entertainment leads to ignoring exercise effect, insufficient professional guidance, not in line with campus fitness education goals.</p>
-        <p>Scheme 3: Gamified Incentive + Personalized Guidance + Lightweight Social Integration Mode (Final Selected Scheme)</p>
-        <p>Operation mode: Take low-threshold exercise check-in and gamified incentive as the core, match AI personalized professional fitness guidance and lightweight student social training partner modules, balance fun, practicality and professionalism, simplify operation and optimize user experience. Selection reason: This scheme perfectly fits the three core user requirements, forms a closed loop from exercise initiation, motivation maintenance to long-term retention, avoids the single defect of the first two schemes, not only ensures the fun and attractiveness of the system, but also meets the professional fitness guidance and campus fitness management needs, best matching the project design objectives and campus user actual scenario.</p>
+        <div class="scheme-list">
+          <article class="scheme-card">
+            <header class="scheme-card-head">
+              <span class="scheme-card-badge">Scheme 1</span>
+              <h4 class="scheme-card-title">Pure Functional Management-oriented System Mode</h4>
+            </header>
+            <div class="scheme-card-body">
+              <div class="scheme-section">
+                <h5 class="scheme-section-label">Operation Mode</h5>
+                <p>Focus on student exercise data statistics, sports management and record functions, simple interface, no gamified design and social interaction modules, core functions are check-in recording and data query only.</p>
+              </div>
+              <div class="scheme-pros-cons">
+                <div class="scheme-pros">
+                  <h5 class="scheme-section-label">Advantages</h5>
+                  <p>Simple development, stable system operation, clear management functions, low maintenance cost.</p>
+                </div>
+                <div class="scheme-cons">
+                  <h5 class="scheme-section-label">Disadvantages</h5>
+                  <p>No exercise fun, no user incentive mechanism, low active use willingness, unable to improve long-term exercise persistence, inconsistent with project gamified core positioning.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="scheme-card">
+            <header class="scheme-card-head">
+              <span class="scheme-card-badge">Scheme 2</span>
+              <h4 class="scheme-card-title">Full Social Entertainment-oriented Fitness System Mode</h4>
+            </header>
+            <div class="scheme-card-body">
+              <div class="scheme-section">
+                <h5 class="scheme-section-label">Operation Mode</h5>
+                <p>Focus on student social interaction, fitness challenge PK and community sharing, add a large number of entertainment gameplay and interactive activities, weaken professional fitness guidance and data statistics functions.</p>
+              </div>
+              <div class="scheme-pros-cons">
+                <div class="scheme-pros">
+                  <h5 class="scheme-section-label">Advantages</h5>
+                  <p>High user playability, strong social interaction, high short-term user activity and attraction.</p>
+                </div>
+                <div class="scheme-cons">
+                  <h5 class="scheme-section-label">Disadvantages</h5>
+                  <p>Deviate from the core demand of improving fitness habits, excessive entertainment leads to ignoring exercise effect, insufficient professional guidance, not in line with campus fitness education goals.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="scheme-card scheme-card-final">
+            <header class="scheme-card-head">
+              <span class="scheme-card-badge">Scheme 3</span>
+              <span class="scheme-card-tag">Final Selected</span>
+              <h4 class="scheme-card-title">Gamified Incentive + Personalized Guidance + Lightweight Social Integration Mode</h4>
+            </header>
+            <div class="scheme-card-body">
+              <div class="scheme-section">
+                <h5 class="scheme-section-label">Operation Mode</h5>
+                <p>Take low-threshold exercise check-in and gamified incentive as the core, match AI personalized professional fitness guidance and lightweight student social training partner modules, balance fun, practicality and professionalism, simplify operation and optimize user experience.</p>
+              </div>
+              <div class="scheme-section scheme-section-reason">
+                <h5 class="scheme-section-label">Selection Reason</h5>
+                <p>This scheme perfectly fits the three core user requirements, forms a closed loop from exercise initiation, motivation maintenance to long-term retention, avoids the single defect of the first two schemes, not only ensures the fun and attractiveness of the system, but also meets the professional fitness guidance and campus fitness management needs, best matching the project design objectives and campus user actual scenario.</p>
+              </div>
+            </div>
+          </article>
+        </div>
         <h3 class="doc-heading">3.3 Low-fidelity Prototype Link</h3>
         <p><a href="https://www.figma.com/design/7o05E05ULwGYoH8C5zOngq/%E7%BD%91%E9%A1%B5?node-id=0-1&amp;t=xzbFTbgRZeMjVJir-1" target="_blank" rel="noopener">https://www.figma.com/design/7o05E05ULwGYoH8C5zOngq/%E7%BD%91%E9%A1%B5?node-id=0-1&amp;t=xzbFTbgRZeMjVJir-1</a></p>
       </div>
