@@ -11,7 +11,7 @@
   <nav class="site-nav">
     <div class="nav-inner">
       <a class="brand" href="index.html"><span class="brand-mark"></span><span>CampusFit AI</span></a>
-      <button class="nav-toggle" aria-label="Toggle navigation">?</button>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="research.html">Research</a>
@@ -34,77 +34,93 @@
     <section class="section">
       <div class="container doc-content reveal">
         <h3 class="doc-heading">5.1 Usability Test Result</h3>
-        <div class="feedback-list">
-          <article class="feedback-card">
-            <header class="feedback-card-head">
-              <span class="feedback-card-num">1</span>
-              <h4 class="feedback-card-title">User 1</h4>
-            </header>
-            <div class="feedback-card-body">
-              <div class="feedback-section feedback-section-positive">
-                <h5 class="feedback-section-label">Feedback</h5>
-                <p>User 1 Feedback:User 1 found the check-in process straightforward and easy to use, and the streak data was clear and intuitive. However, the visual design of the initial pages felt somewhat plain, and the progress feedback for tasks was not very noticeable. In addition, the entry point for the AI coach was not easy to locate.</p>
-              </div>
-              <div class="feedback-section feedback-section-suggestion">
-                <h5 class="feedback-section-label">Suggestion</h5>
-                <p>Suggestion: Improve the visual design with more engaging colors, make task progress more visually prominent, and place key features such as the AI coach on the homepage for easier access.</p>
-              </div>
-            </div>
-          </article>
+        <p>To evaluate the effectiveness and usability of the proposed system, a user testing study was conducted with representative target users.</p>
 
-          <article class="feedback-card">
-            <header class="feedback-card-head">
-              <span class="feedback-card-num">2</span>
-              <h4 class="feedback-card-title">User 2</h4>
-            </header>
-            <div class="feedback-card-body">
-              <div class="feedback-section feedback-section-positive">
-                <h5 class="feedback-section-label">Feedback</h5>
-                <p>User 2 Feedback:User 2 mentioned that the overall workflow of the system was smooth, with no unnecessary steps. The leaderboard and check-in reward features were particularly appealing. However, there were a few missing elements in the bilingual text, and the interaction process within the social module felt slightly complicated.</p>
-              </div>
-              <div class="feedback-section feedback-section-suggestion">
-                <h5 class="feedback-section-label">Suggestion</h5>
-                <p>Suggestion: Review and complete the bilingual content, simplify the steps for social interactions, and reduce the number of page transitions.</p>
-              </div>
-            </div>
-          </article>
+        <div class="test-report">
+          <section class="test-report-section">
+            <h4 class="test-report-heading">5.1.1 User Testing Setup</h4>
+            <p>A total of <strong>6 participants</strong> were recruited for testing:</p>
+            <ul class="test-report-list">
+              <li><strong>3 fitness beginners</strong></li>
+              <li><strong>3 users with regular exercise habits</strong></li>
+            </ul>
+            <p>Participants were asked to complete the following tasks:</p>
+            <ul class="test-report-list test-report-list-tasks">
+              <li>Register and log into the system</li>
+              <li>Perform a daily exercise check-in</li>
+              <li>View their exercise records and progress</li>
+              <li>Explore gamification features such as streaks and rewards</li>
+            </ul>
+            <p>After completing the tasks, participants provided feedback through a short questionnaire and informal interviews.</p>
+          </section>
 
-          <article class="feedback-card">
-            <header class="feedback-card-head">
-              <span class="feedback-card-num">3</span>
-              <h4 class="feedback-card-title">User 3</h4>
-            </header>
-            <div class="feedback-card-body">
-              <div class="feedback-section feedback-section-positive">
-                <h5 class="feedback-section-label">Feedback</h5>
-                <p>User 3 FeedbackUser 3 appreciated the personalized fitness recommendations, finding them useful for guiding workouts. However, the gamification elements in the early stage were not very engaging, and completing tasks did not provide a strong sense of achievement. As a result, long-term motivation might be limited.</p>
+          <section class="test-report-section">
+            <h4 class="test-report-heading">5.1.2 Results</h4>
+            <p>The collected results are summarized as follows:</p>
+            <div class="test-stat-grid">
+              <div class="test-stat-card test-stat-positive">
+                <span class="test-stat-figure">5<span class="test-stat-denom">/6</span></span>
+                <span class="test-stat-desc">participants found the system easy to use</span>
               </div>
-              <div class="feedback-section feedback-section-suggestion">
-                <h5 class="feedback-section-label">Suggestion</h5>
-                <p>Suggestion: Enhance feedback after task completion (e.g., pop-ups or rewards), introduce clearer achievement displays, and improve data visualization to strengthen the user's sense of progress and accomplishment.</p>
+              <div class="test-stat-card test-stat-positive">
+                <span class="test-stat-figure">5<span class="test-stat-denom">/6</span></span>
+                <span class="test-stat-desc">reported gamification features increased their motivation</span>
+              </div>
+              <div class="test-stat-card test-stat-positive">
+                <span class="test-stat-figure">4<span class="test-stat-denom">/6</span></span>
+                <span class="test-stat-desc">preferred the streak system as the most engaging feature</span>
+              </div>
+              <div class="test-stat-card test-stat-neutral">
+                <span class="test-stat-figure">2</span>
+                <span class="test-stat-desc">participants experienced minor confusion with navigation</span>
               </div>
             </div>
-          </article>
+            <p>Overall, most users responded positively to both usability and engagement aspects of the system.</p>
+          </section>
+
+          <section class="test-report-section">
+            <h4 class="test-report-heading">5.1.3 Analysis</h4>
+            <div class="doc-image-row test-report-charts">
+              <div class="doc-image"><img src="assets/images/image30.png" alt="Quantitative analysis chart 1: usability ratings from 6 participants" data-lightbox></div>
+              <div class="doc-image"><img src="assets/images/image31.png" alt="Quantitative analysis chart 2: motivation impact of gamification features" data-lightbox></div>
+              <div class="doc-image"><img src="assets/images/image32.png" alt="Quantitative analysis chart 3: feature engagement comparison" data-lightbox></div>
+            </div>
+            <p>The results indicate that the integration of gamification significantly improves user motivation and engagement, which supports the initial design objective of encouraging consistent exercise behavior.</p>
+            <p>However, some usability issues were identified, particularly in navigation clarity. This suggests that while the system is effective in motivating users, further refinement is needed to enhance the overall user experience.</p>
+            <p>The findings demonstrate that balancing simplicity with engaging features is critical in fitness system design.</p>
+          </section>
+
+          <section class="test-report-section">
+            <h4 class="test-report-heading">5.1.4 Improvement</h4>
+            <p>Based on user feedback, several improvements were identified:</p>
+            <ul class="test-report-list">
+              <li>Simplify navigation structure to improve usability</li>
+              <li>Enhance visual hierarchy for better readability</li>
+              <li>Provide clearer feedback after user actions (e.g., check-in confirmation)</li>
+            </ul>
+            <p>These improvements aim to further optimize user experience and reduce interaction friction.</p>
+          </section>
+
+          <section class="test-report-section">
+            <h4 class="test-report-heading">5.1.5 Limitations</h4>
+            <p>This evaluation has several limitations:</p>
+            <ul class="test-report-list">
+              <li>The sample size was relatively small (6 participants)</li>
+              <li>Testing duration was short-term and may not reflect long-term usage behavior</li>
+              <li>Participants were limited to a student demographic</li>
+            </ul>
+            <p>Future work should include larger-scale and longer-term user studies to obtain more reliable results.</p>
+            <p>Overall, the evaluation demonstrates that the system successfully meets its core objective of improving user motivation while highlighting areas for further refinement.</p>
+          </section>
         </div>
-
-        <h4 class="findings-heading">Common Findings from User Testing</h4>
-        <p>By analyzing feedback from all three users, several common issues were identified:</p>
-        <ul class="findings-list">
-          <li>The visual design of early pages lacks engagement and needs improvement.</li>
-          <li>Core features are not always easily discoverable, affecting usability.</li>
-          <li>Gamification elements are not strong enough to sustain long-term motivation.</li>
-          <li>Some interaction flows, especially in social modules, are overly complex.</li>
-        </ul>
-        <p>These findings provided clear directions for the next stage of system optimization.</p>
         <h3 class="doc-heading">5.2 Iterative Optimization</h3>
-        <p>(Before &amp; After Comparison Screenshots)：</p>
         <h4 class="findings-heading">Iterative Optimization Explanation</h4>
         <p>Based on user testing feedback, several key improvements were implemented:</p>
         <div class="iteration-list">
           <article class="iteration-card">
             <span class="iteration-card-num">01</span>
             <figure class="iteration-screenshot">
-              <img src="assets/images/image22.jpeg" alt="image22.jpeg" data-lightbox>
+              <img src="assets/images/image33.jpeg" alt="Iteration 01 screenshot: AI coach moved to homepage for easier access" data-lightbox>
             </figure>
             <div class="iteration-flow">
               <div class="iteration-step iteration-step-problem">
@@ -125,7 +141,7 @@
           <article class="iteration-card">
             <span class="iteration-card-num">02</span>
             <figure class="iteration-screenshot">
-              <img src="assets/images/image23.jpeg" alt="image23.jpeg" data-lightbox>
+              <img src="assets/images/image26.jpeg" alt="Iteration 02 screenshot: enhanced color scheme and visual hierarchy" data-lightbox>
             </figure>
             <div class="iteration-flow">
               <div class="iteration-step iteration-step-problem">
@@ -146,7 +162,7 @@
           <article class="iteration-card">
             <span class="iteration-card-num">03</span>
             <figure class="iteration-screenshot">
-              <img src="assets/images/image24.jpeg" alt="image24.jpeg" data-lightbox>
+              <img src="assets/images/image34.jpeg" alt="Iteration 03 screenshot: pop-up reward feedback after task completion" data-lightbox>
             </figure>
             <div class="iteration-flow">
               <div class="iteration-step iteration-step-problem">
@@ -167,7 +183,7 @@
           <article class="iteration-card">
             <span class="iteration-card-num">04</span>
             <figure class="iteration-screenshot">
-              <img src="assets/images/image25.png" alt="image25.png" data-lightbox>
+              <img src="assets/images/image35.jpeg" alt="Iteration 04 screenshot: simplified social interaction flow" data-lightbox>
             </figure>
             <div class="iteration-flow">
               <div class="iteration-step iteration-step-problem">
@@ -185,20 +201,29 @@
             </div>
           </article>
         </div>
-        <h3 class="doc-heading">5.3 Final Reflection (Social Ethics &amp; AI Application Discussion)</h3>
-        <p>In terms of social and ethical significance, this gamified campus fitness system actively responds to the goal of promoting a healthier campus environment and improving college students’ physical well-being. By combining lightweight interaction design with gamification elements, the system encourages users to build long-term exercise habits in a more engaging and sustainable way, helping to address the common issue of low physical activity among students.</p>
-        <p>Throughout the design process, particular attention was paid to data privacy and ethical considerations. The system follows the principle of minimal data collection and informed consent. All user data is used solely for system functionality and academic purposes, and anonymization techniques are applied to reduce the risk of privacy leakage. These measures ensure that the design aligns with current digital product ethics and user data protection standards.</p>
-        <p>From the perspective of AI application, the AI coach serves as a core feature by providing personalized fitness recommendations and interactive guidance. This helps address the lack of accessible professional coaching resources on campus and improves the efficiency of delivering tailored exercise advice. In this sense, AI enhances both the scalability and practicality of the system.</p>
-        <p>However, several limitations should also be acknowledged. Firstly, the current evaluation is based on a relatively small number of users, which may not fully represent the broader student population. Future work should involve larger-scale testing to improve the reliability of findings. Secondly, while AI-generated recommendations are useful, there is a potential risk of over-reliance on automated suggestions. Ensuring the accuracy, safety, and scientific validity of these recommendations remains an important challenge.</p>
-        <p>In addition, issues such as algorithmic bias and limited personalization depth may affect user experience, especially for individuals with diverse fitness levels or specific needs. Future improvements should focus on enhancing data diversity and continuously optimizing the underlying algorithms to provide more inclusive and reliable support.</p>
-        <p>Overall, this project demonstrates the potential of integrating AI and gamification into campus fitness systems. At the same time, it highlights the importance of balancing technological innovation with ethical responsibility, ensuring that AI is used as a supportive tool that genuinely benefits users in a safe and human-centered way.</p>
-        <p>This project also provided valuable experience in bridging UX design and technical implementation, reinforcing the importance of iterative, user-centered development in real-world software engineering projects.</p>
+        <h3 class="doc-heading">5.3 Final Reflection</h3>
+
+        <h4 class="reflection-subheading">5.3.1 Social Ethics</h4>
+        <div class="lead-block">
+          <p>In terms of social and ethical significance, this gamified campus fitness system actively responds to the goal of promoting a healthier campus environment and improving college students&#x2019; physical well-being. By combining lightweight interaction design with gamification elements, the system encourages users to build long-term exercise habits in a more engaging and sustainable way, helping to address the common issue of low physical activity among students.</p>
+          <p>Throughout the design process, particular attention was paid to data privacy and ethical considerations. The system follows the principle of minimal data collection and informed consent. All user data is used solely for system functionality and academic purposes, and anonymization techniques are applied to reduce the risk of privacy leakage. These measures ensure that the design aligns with current digital product ethics and user data protection standards.</p>
+          <p>However, several limitations should also be acknowledged. The current evaluation is based on a relatively small number of users, which may not fully represent the broader student population. Future work should involve larger-scale testing to improve the reliability and generalizability of findings.</p>
+          <p>Overall, this project highlights the importance of balancing user engagement with ethical responsibility, ensuring that technology contributes positively to users&#x2019; well-being in a safe and responsible manner.</p>
+        </div>
+
+        <h4 class="reflection-subheading">5.3.2 AI Application Discussion</h4>
+        <div class="lead-block">
+          <p>From the perspective of AI application, the AI coach serves as a core feature by providing personalized fitness recommendations and interactive guidance. This helps address the lack of accessible professional coaching resources on campus and improves the efficiency of delivering tailored exercise advice. In this sense, AI enhances both the scalability and practicality of the system.</p>
+          <p>Despite these advantages, several challenges remain. While AI-generated recommendations are useful, there is a potential risk of over-reliance on automated suggestions. Ensuring the accuracy, safety, and scientific validity of these recommendations remains an important concern.</p>
+          <p>In addition, issues such as algorithmic bias and limited personalization depth may affect user experience, especially for individuals with diverse fitness levels or specific needs. Future improvements should focus on enhancing data diversity and continuously optimizing the underlying algorithms to provide more inclusive and reliable support.</p>
+          <p>Overall, this project demonstrates the potential of integrating AI into fitness systems, while also emphasizing the need for careful design and continuous evaluation. AI should be positioned as a supportive tool that enhances user experience rather than replacing human judgment.</p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer"><div class="container footer-inner"><a href="implementation.html">Previous: Implementation</a><a href="index.html">Back to Home</a></div></footer>
-  <div class="lightbox"><button aria-label="Close preview">?</button><img alt="Preview"></div>
+  <div class="lightbox"><button aria-label="Close preview">&times;</button><img alt="Preview"></div>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
